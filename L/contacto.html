@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - La Catedral del Shot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="/images/WhatsApp Image 2025-04-30 at 9.51.39 PM.jpeg" alt="La Catedral del Shot Logo">
+        <h1>La Catedral del Shot</h1>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="main.html">Inicio</a></li>
+                <li><a href="mision.html">Misión</a></li>
+                <li><a href="Productos.html">Productos</a></li>
+                <li><a href="valores.html">Valores</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-info">
+            <h2>Contáctanos</h2>
+            <p>
+                En <strong>La Catedral del Shot</strong>, estamos aquí para ayudarte. Si tienes preguntas, comentarios o deseas realizar un pedido, no dudes en ponerte en contacto con nosotros a través de los siguientes medios:
+            </p>
+            <ul>
+                <li><strong>Teléfono:</strong> +52 55 1234 5678</li>
+                <li><strong>Email:</strong> contacto@lacatedraldelshot.com</li>
+                <li><strong>Dirección:</strong> Calle Saludable #123, Colonia Nutritiva, Ciudad Verde, México.</li>
+                <li><strong>Horario de Atención:</strong> Lunes a Viernes de 9:00 AM a 6:00 PM</li>
+            </ul>
+        </section>
+        <section class="contact-form">
+            <h2>Envíanos un Mensaje</h2>
+            <form action="submit_contact.php" method="POST">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 La Catedral del Shot. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

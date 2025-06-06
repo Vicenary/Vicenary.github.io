@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe4e1; /* Light pink background */
+    color: #8b4513; /* Brown text color */
+}
+
+header {
+    background-color: #ffcccb; /* Soft pink for the header */
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between title and logo */
+}
+
+header h1 {
+    margin: 0;
+}
+
+header img {
+    margin-right: 1rem; /* Add some spacing to the right */
+}
+
+.menu {
+    background-color: #fa7d24;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #8b4513; /* Brown text for links */
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #ff6347; /* Tomato color for hover effect */
+}
+
+/* Wrapper for sections and aside */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.content {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+}
+
+section {
+    flex: 2;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff5ee; /* Light peach background */
+    border: 1px solid #fa7d24; /* Orange border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 600px;
+    text-align: center;
+}
+
+.section h1, .section h2 {
+    color: #8b4513; /* Brown for headings */
+    margin-bottom: 1rem;
+}
+
+.section p {
+    color: #5a3226; /* Darker brown for text */
+    line-height: 1.6;
+}
+
+#inicio {
+    flex: 3; /* Ocupa más espacio que las otras secciones */
+    max-width: 800px; /* Aumenta el ancho máximo */
+    padding: 3rem; /* Aumenta el relleno interno */
+    font-size: 3rem; /* Aumenta el tamaño del texto */
+    background-color: #fff0f5; /* Fondo ligeramente diferente para destacar */
+    border: 2px solid #fa7d24; /* Borde más grueso */
+    border-radius: 10px; /* Bordes más redondeados */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+}
+
+/* Aside Styles */
+aside {
+    flex: 1;
+    padding: 1.5rem;
+    margin: 1rem;
+    background-color: #ffebcd; /* Blanched almond background */
+    border: 1px solid #fa7d24; /* Orange border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 300px;
+}
+
+aside h2 {
+    color: #8b4513; /* Brown for headings */
+    margin-bottom: 1rem;
+}
+
+aside ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+    color: #5a3226; /* Darker brown for text */
+}
+
+aside ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ffcccb; /* Soft pink for footer */
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    color: #8b4513; /* Brown text */
+}
+li{
+    background-color: #fa7d24;
+    border-radius: 23px;
+}

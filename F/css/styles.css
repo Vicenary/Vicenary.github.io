@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fbe8d3; /* Light beige background */
+    color: #333; /* Dark text for readability */
+}
+
+header {
+    text-align: center;
+    background-color: #f44336; /* Red color from the logo */
+    padding: 20px;
+}
+
+header .logo {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    background-color: #4caf50; /* Green color from the logo */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #388e3c; /* Darker green on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #4caf50; /* Green color from the logo */
+    text-align: center;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px solid #4caf50; /* Green border */
+    border-radius: 10px;
+    background-color: #fff; /* White background for sections */
+}
+
+ul, ol {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #f44336; /* Red color from the logo */
+    color: #fff; /* White text for footer */
+    padding: 20px;
+}
+
+footer .logo-footer {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+}
